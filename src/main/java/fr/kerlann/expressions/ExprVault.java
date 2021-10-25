@@ -12,7 +12,7 @@ import org.bukkit.Bukkit;
 
 @Expression(name = "Vault Expressions",
         features = {
-                @Feature(name = "Player Money", description = "Returns Player money of player with the plugin \"vault\".", examples = "player's money", pattern = "{+player}['s] money", type = "number"),
+                @Feature(name = "Player Money", description = "Returns Player money of player with the plugin \"vault\".", examples = "player's money", pattern = "{player}['s] money", type = "number"),
         }
 )
 public class ExprVault extends ScriptExpression {
