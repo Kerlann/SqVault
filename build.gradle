@@ -85,11 +85,3 @@ sourceSets {
     }
 }
 
-shadowJar {
-    configurations = [project.configurations.shade]
-    from sourceSets.main.allSource
-    classifier ''
-}
-
-shadowJar.dependsOn('classes')
-
