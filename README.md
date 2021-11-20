@@ -1,1 +1,1 @@
-# SqRichPresence
+# SqMCEF

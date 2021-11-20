@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkRP Menu</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <!-- JS -->
+    <script src="js/lib/vue.js"></script>
+    <script src="https://unpkg.com/http-vue-loader@1.4.2/src/httpVueLoader.js"></script>
+    <script src="https://unpkg.com/vue-tippy/dist/vue-tippy.min.js"></script>
+	<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+</head>
+<body>
+    <div id="app">
+        <menuf4 v-if="window === 'MenuF4'"></menuf4>
+    </div>
+    <script>
+        httpVueLoader.register(Vue, "js/components/menuf4.vue");
+
+        const vue = new Vue({
+            el: "#app",
+            data: {
+                window: "MenuF4"
+            },
+            components: [
+                "menuf4"
+            ],
+            methods: {
+            }
+        })
+    </script>
+</body>
+</html>

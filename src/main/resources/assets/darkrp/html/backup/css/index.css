@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    background: #262626;
+    width: 100%;
+    height: 100vh;
+    background: none;
+}
+
+.wrapper {
+    position: relative;
+    background: #fff;
+    height: 75%;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sidebar-wrapper {
+    #padding: 1.5rem 1rem;
+    font-size: 1.2rem;
+}
+
+.list-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: 0.25rem;
+}
+
+#page-content-wrapper {
+    background-color: #F6F6F6;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.d-flex {
+    display: flex !important;
+    overflow-x: hidden;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    font-size: 1.2rem;
+}
+
+.border {
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.bg-f4 {
+    background-color: #252835;
+}
+
+#sidebar-wrapper .list-group {
+    width: 16rem;
+}
+
+.button-info {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    line-height: 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button-job {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    line-height: 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.active{
+    background-color: #141722;
+}
+
+.button-f4:hover {
+    background-color: #141722;
+}
+
+.button-f4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #909399;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar {
+    position: relative;
+    display: flex!important;
+    align-items: center!important;
+    flex-wrap: wrap;
+    padding-top: 1.6rem;
+    padding-bottom: 1.25rem;
+    padding-left: 25px;
+    background-color: white;
+    min-width: 0;
+    width: 100%;
+    border-bottom: 2px solid #E9E9E9 !important;
+}
+
+.border-bottom {
+    display: flex!important;
+    align-items: center!important;
+    flex-wrap: wrap;
+}
+
+.border-bottom img {
+    margin: 10px;
+    border: 2px solid #2481BA !important;
+}
+
+.border-info {
+    padding: 0.5rem 0.5rem;
+    border-bottom: 1px solid #2481BA !important;
+    background-color: #319ADC;
+}
+
+.navbar img {
+    margin: 15px;
+}
+
+.navbar a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #2E2E2E;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.title{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 2px solid #F3F3F3;
+}
+
+.title-box {
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    background-color: white;
+    margin: 10px 10px;
+    border-radius: 5px 5px 5px 5px;
+    height: auto;
+    border: 2px solid #F3F3F3 !important;
+}
+
+.title-box-text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: auto;
+    text-decoration: none;
+    color: #C3C3C3;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.box {
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 10px 18px;
+    border-radius: 5px 5px 5px 5px;
+    height: 53.5vh;
+    overflow-y: auto;
+    max-height: 53.5vh;
+}
+
+.jobs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 97%;
+    border-bottom: 2px solid #F3F3F3;
+    margin-left: 10px;
+}
+
+.btn-jobs {
+    background-color: #ea5358;
+    border-radius: 9px;
+    border: 1px solid #d44249;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.btn-jobs:hover {
+    background-color:#de595f;
+}
+
+.salary-job{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: auto;
+    text-decoration: none;
+    color: #C3C3C3;
+    font-size: 18px;
+}
+
+.text-job{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: auto;
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    width: 20vh;
+}
+
+.text-number-info{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: auto;
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+}    
+
+.container-fluid{
+    display: flex;
+}
