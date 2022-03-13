@@ -33,8 +33,8 @@ public class ActVault extends ScriptAction {
     public void execute(ScriptContext context) throws ScriptException {
         switch (getMatchedIndex()){
             case 0:
-                EntityPlayer player = (EntityPlayer) getParameter(1,context);
-                int money = getParameterOrDefault(getParameter(2), 0, context);
+                EntityPlayer player = (EntityPlayer) getParameter(2,context);
+                int money = getParameterOrDefault(getParameter(1), 0, context);
                 OfflinePlayer offlinePlayer = Bukkit.getOfflinePlayer(player.getUniqueID());
                 EconomyResponse response = SqVault.getEconomy().depositPlayer(offlinePlayer, money);
                 if(!response.transactionSuccess()){
@@ -42,8 +42,8 @@ public class ActVault extends ScriptAction {
                 }
                 break;
             case 1:
-                player = (EntityPlayer) getParameter(1,context);
-                money = getParameterOrDefault(getParameter(2), 0, context);
+                player = (EntityPlayer) getParameter(2,context);
+                money = getParameterOrDefault(getParameter(1), 0, context);
                 offlinePlayer = Bukkit.getOfflinePlayer(player.getUniqueID());
                 response = SqVault.getEconomy().withdrawPlayer(offlinePlayer, money);
                 if(!response.transactionSuccess()){
