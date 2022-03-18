@@ -24,7 +24,7 @@ import org.bukkit.OfflinePlayer;
                         name = "Withdraw money",
                         description = "Withdraw money from the player.",
                         examples = "remove 10 to player's money",
-                        pattern = "remove {number} to {player}['s] money"
+                        pattern = "remove {number} from {player}['s] money"
                 )
 })
 public class ActVault extends ScriptAction {
